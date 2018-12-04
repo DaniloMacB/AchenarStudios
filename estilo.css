@@ -1,7 +1,60 @@
-//Reset
+/*Reset*/
 * {margin: 0; padding: 0; font-size: 100%; border: none; outline: none; font-weight: 300; box-sizing: border-box;
 font-family: 'Lato', sans-serif;}
 body {background-color: #f5f5f5;}
 a {text-decoration: none;}
 ul {list-style: none;}
 img {max-width: 100%;}
+
+.centro-vertical
+{
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.centro-horizontal
+{
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.AchenarStudios
+{
+	font-size: 50pt;
+	color: white;
+	text-align: center;
+	margin: 0;
+}
+.Background1
+{
+	background: url(imagens/bg.jpg) no-repeat fixed;
+}
+
+/*Equipe*/
+.Nome
+{
+	font-size: 30pt;
+	color: white;
+}
+.Foto
+{
+	width: 100px;
+	height: 100px;
+}
+.Descricao
+{
+	font-size: 15pt;
+	color: white;
+	margin-left: 20px;
+}
+.Link
+{
+	font-size: 15pt;
+	color: white;
+}
+.Link:hover
+{
+	font-size: 15pt;
+	color: black;
+}
