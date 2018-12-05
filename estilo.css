@@ -34,7 +34,7 @@ img {max-width: 100%;}
 /*Equipe*/
 .Nome
 {
-	font-size: 30pt;
+	font-size: 20pt;
 	color: white;
 }
 .Foto
@@ -42,19 +42,53 @@ img {max-width: 100%;}
 	width: 100px;
 	height: 100px;
 }
+.Categoria
+{
+	font-size: 15pt;
+	color: #FF5E19;
+	display: inline;
+}
 .Descricao
 {
 	font-size: 15pt;
-	color: white;
-	margin-left: 20px;
+	color: black;
 }
 .Link
 {
 	font-size: 15pt;
-	color: white;
+	color: black;
 }
 .Link:hover
 {
 	font-size: 15pt;
-	color: black;
+	color: white;
+}
+.BackgroundLider
+{
+	background-color: #FFDE00;
+}
+.BackgroundLider2
+{
+	background-color: #E8B50C;
+}
+.BackgroundProgramador
+{
+	background-color: #0C8FE8;
+}
+.BackgroundProgramador2
+{
+	background-color: #0055FF;
+}
+.BackgroundExilado
+{
+	background-color: rgba(255,0,0,1);
+}
+.BackgroundExilado2
+{
+	background-color: rgba(210,0,0,1);
+}
+.Borda
+{
+	border-bottom: 2px solid rgba(0,0,0,.4);
+	border-right: 2px solid rgba(0,0,0,.4);
 }

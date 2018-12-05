@@ -39,31 +39,37 @@
 		
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-md-4 p-0">
-					<div class="bg-primary m-1 py-1" style="height: 400px;">
-						<h1 class="text-center Nome m-1">Gatos Tristes</h1>
-						<img class="rounded-circle my-2 Foto centro-horizontal" src="imagens/equipe/gatos-tristes.jpg">
-						<h1 class="Descricao">Cargo: Líder Supremo.</h1>
-						<h1 class="Descricao">Função: Quando o caos e instaurado, ele é convocado para restaurar a paz, tomando decisões extremamente precisas, que devem ser tomadas como regra.</h1>
-						<h1 class="Descricao">Portfólio: Seu trabalho não será divulgado, pois seria muito difícil concorrer com outras equipes que posuem a sabedoria do profeta miau.</h1>	
+				<div  class="col-md-3 p-0">
+					<div id="maisAlto" class="m-1 p-1 BackgroundLider Borda">
+						<h1 class="m-1 p-1 text-center Nome BackgroundLider2">Gatos Tristes</h1>
+						<div class="m-1 p-1 BackgroundLider2">
+							<img class="m-1 p-0 rounded-circle Foto centro-horizontal BackgroundLider2" src="imagens/equipe/gatos-tristes.jpg">
+						</div>
+						<h1 class="m-1 p-1 Descricao BackgroundLider2"><p class="Categoria">Cargo: </p>Líder Supremo.</h1>
+						<h1 class="m-1 p-1 Descricao BackgroundLider2"><p class="Categoria">Função: </p>Quando o caos é instaurado, ele é convocado para restaurar a paz, definindo decisões extremamente precisas, que devem ser tomadas como regra.</h1>
+						<h1 class="m-1 p-1 Descricao BackgroundLider2"><p class="Categoria">Portfólio: </p>Seu trabalho não será divulgado, pois seria muito difícil concorrer com outras equipes que posuem a sabedoria do profeta miau.</h1>	
 					</div>
 				</div>
-				<div class="col-md-4 p-0">
-					<div class="bg-primary m-1 py-1" style="height: 400px;">
-						<h1 class="bg-primary text-center m-1 Nome">Danilo Macedo Bakun</h1>
-						<img class="rounded-circle my-2 Foto centro-horizontal" src="imagens/equipe/danilo.jpg">
-						<h1 class="Descricao">Cargo: Programador.</h1>
-						<h1 class="Descricao">Função: Ajudar na programação, na organização, no level design, e além disso tudo também e hokague das animações, apesar de não ter seu talento reconhecido.</h1>
-						<h1 class="Descricao">Portfólio: <a class="Link" href="https://danilomacb.github.io/">https://danilomacb.github.io/</a></h1>
+				<div class="col-md-3 p-0">
+					<div class="m-1 p-1 altura BackgroundProgramador Borda">
+						<h1 class="text-center m-1 p-1 Nome BackgroundProgramador2">Danilo Macedo Bakun</h1>
+						<div class="m-1 p-1 BackgroundProgramador2">
+							<img class="m-1 p-0 rounded-circle Foto centro-horizontal" src="imagens/equipe/danilo.jpg">
+						</div>
+						<h1 class="m-1 p-1 Descricao BackgroundProgramador2"><p class="Categoria">Cargo: </p>Programador.</h1>
+						<h1 class="m-1 p-1 Descricao BackgroundProgramador2"><p class="Categoria">Função: </p>Ajudar na programação, na organização, no level design, e além disso tudo também e hokague das animações, apesar de não ter seu talento reconhecido.</h1>
+						<h1 class="m-1 p-1 Descricao BackgroundProgramador2"><p class="Categoria">Portfólio: </p><a class="Link" href="https://danilomacb.github.io/">https://danilomacb.github.io/</a></h1>
 					</div>
 				</div>
-				<div class="col-md-4 p-0">
-					<div class="bg-primary m-1 py-1" style="height: 400px;">
-						<h1 class="bg-primary text-center m-1 Nome">ACR Bot</h1>
-						<img class="rounded-circle my-2 Foto centro-horizontal" src="imagens/equipe/acr-bot.jpg">
-						<h1 class="Descricao">Cargo: Precisa ser exilado.</h1>
-						<h1 class="Descricao">Função: Atrapalhar, spamar mensagens inúteis, fazer a votação ficar mais difícil do que deveria e conversar com o Bigardinho.</h1>
-						<h1 class="Descricao">Portfólio: Ninguém liga!!!</h1>
+				<div  class="col-md-3 p-0">
+					<div class="altura m-1 p-1 BackgroundExilado Borda">
+						<h1 class="m-1 p-1 text-center Nome BackgroundExilado2">ACR Bot</h1>
+						<div class="m-1 p-1 BackgroundExilado2">
+							<img class="m-1 p-0 rounded-circle Foto centro-horizontal" src="imagens/equipe/acr-bot.jpg">
+						</div>
+						<h1 class="m-1 p-1 Descricao BackgroundExilado2"><p class="Categoria">Cargo: </p>Precisa ser exilado.</h1>
+						<h1 class="m-1 p-1 Descricao BackgroundExilado2"><p class="Categoria">Função: </p>Atrapalhar, spamar mensagens inúteis, fazer a votação ficar mais difícil do que deveria e conversar com o Bigardinho.</h1>
+						<h1 class="m-1 p-1 Descricao BackgroundExilado2"><p class="Categoria">Portfólio: </p>Ninguém liga!!!</h1>	
 					</div>
 				</div>
 			</div>
@@ -71,5 +77,11 @@
 		
 		<script src="frameworks/jquery/jquery-3.3.1.min.js" type="text/javascript"></script>
 		<script src="frameworks/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+		
+		<script>
+			var alturaMaisAlto = $("#maisAlto").innerHeight();
+		
+			$(".altura").css("height", alturaMaisAlto);	
+		</script>
 	</body>
 </html>
