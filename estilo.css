@@ -65,27 +65,35 @@ img {max-width: 100%;}
 }
 .BackgroundLider
 {
-	background-color: #FFDE00;
+	background-color: #ffff00;
 }
 .BackgroundLider2
 {
-	background-color: #E8B50C;
+	background-color: #ffd600 ;
 }
 .BackgroundProgramador
 {
-	background-color: #0C8FE8;
+	background-color: #40c4ff;
 }
 .BackgroundProgramador2
 {
-	background-color: #0055FF;
+	background-color: #0091ea;
 }
 .BackgroundExilado
 {
-	background-color: rgba(255,0,0,1);
+	background-color: #f44336;
 }
 .BackgroundExilado2
 {
-	background-color: rgba(210,0,0,1);
+	background-color: #d32f2f ;
+}
+.BackgroundArtista
+{
+	background-color: #64ffda;
+}
+.BackgroundArtista2
+{
+	background-color: #00bfa5;
 }
 .Borda
 {
