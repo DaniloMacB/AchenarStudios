@@ -1,1 +1,1 @@
-# AchenarStudios
+Projeto criado com a finalidade de divulgar o portfólio da equipe de desenvolvimento de jogos Achernar.
